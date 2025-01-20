@@ -1,0 +1,147 @@
+/*---CSS RESET---*/
+@import url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff');
+
+/*
+@font-face {
+	font-family: 'Pretendard Variable';
+	font-weight: 400 500 600 700 800;
+	font-style: normal;
+	font-display: swap;
+	src: url('/font/PretendardVariable.woff2') format('woff2-variations');
+}
+*/
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+	src: url('../font/Pretendard-ExtraBold.html') format('woff2');
+}
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+	src: url('../font/Pretendard-Bold.html') format('woff2');
+}
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+	src: url('../font/Pretendard-SemiBold.html') format('woff2');
+}
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+	src: url('../font/Pretendard-Medium.html') format('woff2');
+}
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	src: url('../font/Pretendard-Regular.html') format('woff2');
+}
+
+/*영문 폰트*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&amp;display=swap'); 
+
+@font-face {
+	font-family: 'Poppins';
+	font-weight: 800;
+	font-display: swap;
+	src: local('Poppins'), url('../font/Poppins-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Poppins';
+	font-weight: 700;
+	font-display: swap;
+	src: local('Poppins'), url('../font/Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-display: swap;
+	src: local('Poppins'), url('../font/Poppins-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Poppins'), url('../font/Poppins-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Poppins'), url('../font/Poppins-Regular.ttf') format('truetype');
+}
+
+
+
+*{margin: 0;padding: 0;font-family: inherit;font-size: inherit;font-weight: inherit;font-style: inherit;color: inherit;text-decoration: inherit;box-sizing: border-box;}
+
+html, body{text-size-adjust: none;
+    -webkit-text-size-adjust: none; 
+    -moz-text-size-adjust: none; 
+    -ms-text-size-adjust: none;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+/*	overflow-x:hidden;*/
+
+}
+
+body{font-family: 'Pretendard', sans-serif;font-size:16px; font-weight:400; font-style: normal;text-decoration: none;color: #fff; overflow-x:hidden; position:relative;}
+li{list-style: none;}
+table{border-spacing: 0;border-collapse: collapse;}
+input, select, textarea, button{box-sizing: border-box;}
+button{background: none;border: none;cursor: pointer;outline: none;}
+img {max-width:200px; display:block;}
+
+/*영문 폰트 변경*/
+.j_eng{font-family: 'Poppins', sans-serif;}
+
+
+@media screen and (min-width:1481px){
+    html, body{font-size: 16px;}
+}
+
+@media screen and (min-width:721px) and (max-width:1480px){
+    html, body{font-size: 14px;}
+}
+
+@media screen and (max-width:720px){
+    html, body{font-size: 12px;}
+}
+
+.mo_br {display:none;}
+.mo_img {display:none;}
+@media screen and (max-width:860px){
+	.pc_img {display:none;}
+   .mo_img {display:unset;}
+}
+@media screen and (max-width:767px){
+   .pc_br {display:none;}
+   .mo_br {display:block;}
+
+}
+
+
+
+
+
+/*inner*/
+
+.j_inner {max-width:1420px; width:80%; margin:0 auto; position:relative;}
+.j_inner02 {max-width:1680px; width:92%; margin:0 auto; position:relative;}
+
+/*
+
+@media screen and (max-width:1280px){
+	.j_inner {width:85%; }
+
+}*/
