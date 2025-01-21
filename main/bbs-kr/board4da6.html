@@ -118,33 +118,6 @@
 	<script src="../js/j_sub.js"></script>
 
 
-<script>
-$(document).ready(function(){
-    // 페이지가 로드될 때 실행되는 함수
-    scrollToTargetIfURLContains();
-
-    // URL에 특정 문구가 포함되어 있으면 스크롤 이동하는 함수
-    function scrollToTargetIfURLContains() {
-        var searchString = "stx="; // 포함되어야 하는 특정 문구
-        var currentURL = window.location.href;
-
-        if (currentURL.indexOf(searchString) !== -1) {
-            // 특정 문구가 URL에 포함되어 있을 경우 스크롤 이동
-            var targetOffset = $('#search_top').offset().top;
-            $('html, body').animate({
-                scrollTop: targetOffset
-            }, 500); // 스크롤 속도 조절 가능 (밀리초 단위)
-        }
-    }
-});
-</script>
-	
-	
-
-
-	<!-- e: top-nav-box -->
-
-<script src="../js/viewimageresize.js"></script>
 
 
 
@@ -169,8 +142,7 @@ $(document).ready(function(){
 				</div><!--view_tit_back-->
 
 				<div class="view_tit_top">
-					<span class="list_cate fs_16 font_m">Java</span>&nbsp;<span class="list_cate fs_16 font_m">Spring Framework</span>&nbsp;<span class="list_cate fs_16 font_m">Oracle</span>&nbsp;<span class="list_cate fs_16 font_m">MySQL</span>
-					<span class="list_cate fs_16 font_m">SVN</span>
+					<span class="list_cate fs_16 font_m">Java</span>&nbsp;<span class="list_cate fs_16 font_m">Spring Boot</span>&nbsp;<span class="list_cate fs_16 font_m">RESTful API</span>&nbsp;<span class="list_cate fs_16 font_m">XML</span>&nbsp;<span class="list_cate fs_16 font_m">JSON</span>
 					<h2 class="k_bo_v_tit clearfix fs_40 font_b" style="font-family: 'Poppins', sans-serif;">
 						KAIT 연동 RESTful API 개발				</h2>
 				</div><!--view_tit top-->
